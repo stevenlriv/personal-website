@@ -96,9 +96,9 @@ export default function Navbar() {
           id="nav"
         >
           <div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-0">
+            {/*
             {navItems[pathname] ? (
               <>
-                {/* Desktop version, hidden on mobile, animates y axis */}
                 <div className="hidden md:block">
                   <motion.div
                     className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
@@ -116,7 +116,7 @@ export default function Navbar() {
                     }}
                   />
                 </div>
-                {/* Mobile version, hidden on desktop, animates x axis */}
+
                 <div className="block md:hidden">
                   <motion.div
                     className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
@@ -156,6 +156,7 @@ export default function Navbar() {
                 </Link>
               );
             })}
+            */}
           </div>
         </nav>
       </div>
